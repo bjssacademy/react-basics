@@ -77,3 +77,7 @@ OutOfStockCard.propTypes = {
   
 export default OutOfStockCard;
 ```
+
+---
+
+[Global State - React Context >>](chapter8.md)
