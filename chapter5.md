@@ -179,9 +179,9 @@ Well, you can just turn off the validation that's keeping you safe:
 ProductList.propTypes = null;
 ```
 
-## Home.jmx
+## Home.jsx
 
-Now we need to update our `Home.jmx` to use the ProductList component, and use hooks to pass th products to it to be displayed, mimicking an API call:
+Now we need to update our `Home.jsx` to use the ProductList component, and use hooks to pass th products to it to be displayed, mimicking an API call:
 
 ```jsx
 import { useState, useEffect } from 'react';
