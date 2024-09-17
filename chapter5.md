@@ -39,7 +39,7 @@ Save the file and see it updated.
 
 Let's do something more exciting. Let's add a series of bootstrap cards to represent products that we have got from the database. Of course, we don't have a database yet to connect to, so we'll be using a dummy array of objects.
 
-At the top of `Home.jmx` add:
+At the top of `Home.jsx` add:
 
 ```
 const products = [
