@@ -80,7 +80,7 @@ import { useState } from "react";
 import { BasketContext } from "./context/BasketContext"; 
 ```
 
-Then we want to set the `basket` variable to an empty array:
+Then we want to set the `basket` variable to a simple integer, starting with value zero:
 
 ```jsx
 const App = () => {
