@@ -86,7 +86,7 @@ Then we want to set the `basket` variable to an empty array:
 const App = () => {
 
   // eslint-disable-next-line no-unused-vars
-  const [basket, setBasket] = useState([]);
+  const [basket, setBasket] = useState(0); //just using an int for now
 
 //.... rest of the code
 }
