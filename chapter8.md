@@ -64,7 +64,7 @@ Of course, that's a very simplified example. Let's write something a lot more co
 
 ## BasketContext
 
-First up, we are going to create a new `BasketContext.jsx` file in `src/components`. Having a separate context file like this makes it more reusable. It's as imple file that uses `createContext` and exports the context.
+First up, we are going to create a new `BasketContext.jsx` file in `src/context`. Having a separate context file like this makes it more reusable. It's a simple file that uses `createContext` and exports the context.
 
 ```jsx
 import { createContext } from 'react';
